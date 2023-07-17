@@ -15,4 +15,28 @@ code {
 .down-arrow{
   width: 20px;
   cursor: pointer;
+  transition: .3s;
+}
+.down-arrow.rotate{
+  transform: rotate(180deg);
+}
+.drop .down-arrow.rotate{
+  transform: rotate(180deg);
+}
+.my-dropdown{
+  width: 576px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+
+  border-bottom: 15px solid #fff;
+  position: absolute;
+  top: 33px;
+  left: 50%;
+  transform: translateX(-50%);
 }
