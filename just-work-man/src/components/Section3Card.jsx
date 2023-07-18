@@ -10,9 +10,9 @@ function Section3Card({ card }) {
             </div>
             <h2 className='card--title font-bold my-3 '> {card.title} </h2>
             <span> {card.description} </span>
-            <div className='flex justify-center items-center gap-2'>
-                <NavLink className={'block mt-2 font-bold tracking-wider text-base'}> {card.link} </NavLink>
-                <RightArrow className={'right-arrow mt-2'} />
+            <div className='flex justify-center items-center gap-2 '>
+                <NavLink className={'block mt-2 font-bold tracking-wider text-base hover:underline hover:text-sky-900 hover:underline-offset-4'}> {card.link} </NavLink>
+                <RightArrow className={'right-arrow mt-2 cursor-pointer hover:underline hover:underline-offset-4'} />
             </div>
         </div>
     )
