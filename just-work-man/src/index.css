@@ -40,3 +40,30 @@ code {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.card--container{
+  max-width: 1089px;
+  margin: 140px auto;
+  gap: 61px;
+}
+
+.card--title{
+  color: #00112c;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.card {
+  width: 394px;
+}
+.card span{
+  color: #00112C;
+}
+
+.card a{
+  color: #1AAFD0;
+}
+
+.right-arrow {
+  transform: rotatez(90deg);
+}
