@@ -3,20 +3,20 @@ import React from "react";
 function SearchBar() {
     return (
         <>
-            <div className='bg-blue-400 flex justify-center py-2 rounded-3xl w-96 '>
+            <div className='flex justify-center py-2 rounded-3xl w-96 m-auto bg-white mt-6 '>
                 <input
                     type='text'
-                    className='bg-red-500 w-60 '
+                    className='bg-transparnt w-80 pl-6'
                     placeholder="Think of a domain name"
                 />
-                <button className='bg-green-600 p-3 rounded-xl'>
+                <button className='p-3 rounded-2xl bg-teal-300'>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
                         fill='none'
                         viewBox='0 0 24 24'
                         strokeWidth={1.5}
                         stroke='currentColor'
-                        className='w-6 h-6'>
+                        className='w-6 h-6 '>
                         <path
                             strokeLinecap='round'
                             strokeLinejoin='round'

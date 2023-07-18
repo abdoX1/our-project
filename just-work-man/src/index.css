@@ -16,3 +16,9 @@ code {
   width: 20px;
   cursor: pointer;
 }
+.custemed-width {
+  width: 600px;
+}
+.header-sec-bg {
+  background-color: #00112C;
+}
