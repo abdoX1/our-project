@@ -17,8 +17,24 @@ code {
   cursor: pointer;
 }
 .custemed-width {
-  width: 600px;
+  width: 850px;
 }
 .header-sec-bg {
   background-color: #00112C;
+}
+.hard-bottom-padding {
+  padding-bottom: 99px;
+  
+}
+.hide-width {
+  width: 880px;
+}
+.hide-height {
+  height: 98px;
+}
+.custem-scale {
+  transform: scale(2.06) translate(-24.4%, 0);
+}
+.custem-searchBar-width {
+  width: 600px;
 }

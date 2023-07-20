@@ -3,10 +3,10 @@ import React from "react";
 function SearchBar() {
     return (
         <>
-            <div className='flex justify-center py-2 rounded-3xl w-96 m-auto bg-white mt-6 '>
+            <div className='flex justify-between p-2 rounded-3xl custem-searchBar-width m-auto bg-white mt-6 '>
                 <input
                     type='text'
-                    className='bg-transparnt w-80 pl-6'
+                    className='bg-transparnt w-80 pl-4'
                     placeholder="Think of a domain name"
                 />
                 <button className='p-3 rounded-2xl bg-teal-300'>
