@@ -67,3 +67,24 @@ code {
 .right-arrow {
   transform: rotatez(90deg);
 }
+
+.section1--container{
+  color: #00112C;
+  background-color: #F2F3F4;
+  margin-bottom: 300px;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.section1--right{
+  margin-top: 145px;
+}
+.section1--container .button {
+  border: 2px solid #00112C;
+  transition: .3s;
+}
+
+.section1--container .button:hover{
+  background-color: #00112C;
+  color: #fff;
+}
