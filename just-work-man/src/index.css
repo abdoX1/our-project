@@ -88,3 +88,25 @@ code {
   background-color: #00112C;
   color: #fff;
 }
+.custemed-width {
+  width: 1050px;
+}
+.header-sec-bg {
+  background-color: #00112C;
+}
+.hard-bottom-padding {
+  padding-bottom: 99px;
+  
+}
+.hide-width {
+  width: 1050px;
+}
+.hide-height {
+  height: 98px;
+}
+.custem-scale {
+  transform: scale(2.5, 2.06) translate(-20.4%, 0);
+}
+.custem-searchBar-width {
+  width: 600px;
+}
