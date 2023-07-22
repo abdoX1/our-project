@@ -1,13 +1,13 @@
 import React from "react";
 
-function SearchBar() {
+function SearchBar(props) {
     return (
         <>
             <div className='flex justify-between p-2 rounded-3xl custem-searchBar-width m-auto bg-white mt-6 '>
                 <input
                     type='text'
                     className='bg-transparnt w-80 pl-4'
-                    placeholder="Think of a domain name"
+                    placeholder={props.placeHolder}
                 />
                 <button className='p-3 rounded-2xl bg-teal-300'>
                     <svg

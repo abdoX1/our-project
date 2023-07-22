@@ -9,7 +9,7 @@ function HeaderSection() {
         <div className='relative'>
             <div className='custemed-width text-center header-sec-bg m-auto py-3 hard-bottom-padding flex flex-col pt-28'>
                 <h1 className='text-6xl mx-12 p-6 font-sans font-extrabold text-white'>Claim your space in the digital world</h1>
-                <SearchBar />
+                <SearchBar placeHolder = 'Think of a domain name' />
                 
             </div>
             <div className='absolute top-0'>
@@ -21,9 +21,9 @@ function HeaderSection() {
             <div className='absolute top-full left-1/2  header-sec-bg custem-scale'>
                     <HomeHeaderFloor />
             </div>
-            <div className='-bottom-24 absolute hide-width left-1/2 -translate-x-1/2 bg-white hide-height'>
+          {  <div className='-bottom-24 absolute hide-width left-1/2 -translate-x-1/2 bg-white hide-height'>
 
-            </div>
+            </div>}
         </div>
     )
 }

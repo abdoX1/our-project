@@ -112,5 +112,6 @@ code {
   transform: scale(2.5, 2.06) translate(-20.4%, 0);
 }
 .custem-searchBar-width {
-  width: 600px;
+  width: 800px;
+  transform: scale(1.0, 1.1);
 }
