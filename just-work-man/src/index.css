@@ -115,3 +115,10 @@ code {
   width: 800px;
   transform: scale(1.0, 1.1);
 }
+.whitee {
+  color: white;
+}
+.footer-links:hover {
+  color: #38E8B0;
+  text-decoration: underline;
+}
