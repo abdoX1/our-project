@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
 import Section3Cards from "./components/Section3Cards";
+import Footer from "./components/footer";
 import Section3 from "./components/section3";
 
 
@@ -15,6 +16,7 @@ function App() {
       <Section1 />
       <Section2 />
       <Section3 />
+      <Footer />
     </div>
   );
 }
