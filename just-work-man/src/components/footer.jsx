@@ -195,28 +195,28 @@ function Footer() {
                                         <a
                                             href='#'
                                             class='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>
-                                            Dashboard
+                                            English
                                         </a>
                                     </li>
                                     <li>
                                         <a
                                             href='#'
                                             class='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>
-                                            Settings
+                                            Français
                                         </a>
                                     </li>
                                     <li>
                                         <a
                                             href='#'
                                             class='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>
-                                            Earnings
+                                            Español
                                         </a>
                                     </li>
                                     <li>
                                         <a
                                             href='#'
                                             class='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>
-                                            Sign out
+                                            中文
                                         </a>
                                     </li>
                                 </ul>
